@@ -1,8 +1,9 @@
 #!/bin/bash
 
 file="$1"
+n="$2"
 
-head -n 3 "$file"
+head -n $n "$file"
 echo "..."
-tail -n 3 "$file"
+tail -n $n "$file"
 
